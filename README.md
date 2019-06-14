@@ -16,5 +16,5 @@ RUN apk add --no-cache \
 	zip \
 	unzip \
 	ttf-dejavu \
-	coreutils \
+	coreutils
 ```
