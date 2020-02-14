@@ -15,3 +15,16 @@ RUN apk add --no-cache \
 	unzip \
 	ttf-dejavu \
 	coreutils
+
+RUN apk add --no-cache \
+	coreutils \
+	xz \
+        xz-dev \
+	tzdata \
+	openssl \
+	openssl-dev \
+	ca-certificates \
+	linux-headers \
+	git-lfs \
+        dpkg \
+        dpkg-dev
