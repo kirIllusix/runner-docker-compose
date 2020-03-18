@@ -28,3 +28,5 @@ RUN apk add --no-cache \
 	git-lfs \
         dpkg \
         dpkg-dev
+
+ RUN apk add --no-cache sudo
